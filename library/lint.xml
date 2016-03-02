@@ -1,0 +1,5 @@
+<lint>
+    <issue id="NewApi">
+        <ignore path="src/main/java/com/cocosw/bottomsheet/BottomSheet.java" />
+    </issue>
+</lint>

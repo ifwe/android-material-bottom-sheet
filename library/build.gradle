@@ -2,6 +2,11 @@ apply from: 'https://raw.githubusercontent.com/soarcn/gradle/master/android-libr
 apply from: 'https://raw.githubusercontent.com/soarcn/gradle/master/maven_push.gradle'
 
 dependencies {
-    compile 'com.android.support:support-v4:22.0.0'
+    compile 'com.android.support:support-v4:23.2.0'
 }
 
+android {
+    lintOptions {
+        lintConfig file("lint.xml")
+    }
+}
